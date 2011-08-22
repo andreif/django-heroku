@@ -64,12 +64,14 @@ In TextMate preferences
     cd mysite
     python manage.py runserver
 
+### 2.3. Add a core app to the site
+
+    python manage.py startapp core
 
 # To do:
 
-### Add an app to the site
+### Create a home page
 
-    python manage.py startapp core
 
 
 ## 3. Installing Django modules
