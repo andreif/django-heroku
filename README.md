@@ -68,30 +68,10 @@ In TextMate preferences
 
     python manage.py startapp core
 
-# To do:
+### 2.4. Set up database and directories in the settings
 
-### Create a home page
-
-
-
-## 3. Installing Django modules
-
-
-### https://github.com/jezdez/django_compressor
-
-### [Sass](http://sass-lang.com/download.html)
-
-    gem install sass
-
-### [Less](http://lesscss.org/)
-
-    npm install less
-
-### [coffee](github.com/jashkenas/coffee-script)
-
-    brew install coffee-script
-
-### https://github.com/zacharyvoase/cssmin
-
-### http://code.google.com/closure/
+ - Keep the root dir in a variable
+ - Set sqlite3 as db driver and provide the path to db file
+ - Set media root path
+ - Set templates path
 
