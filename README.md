@@ -1,5 +1,4 @@
 # Initial Django site setup to run on Heroku (work in progress)
----
 
 ## 1. Installing prerequisites (Mac OS X)
 
@@ -25,7 +24,7 @@
     bash < <(curl -s https://rvm.beginrescueend.com/install/rvm)
     rvm get latest
 
-### 1.5. Ruby and TextMate settings
+### 1.5. Ruby and [TextMate settings](http://beginrescueend.com/integration/textmate/)
 
     rvm install 1.9.2-p290
     rvm --default use 1.9.2-p290
@@ -49,13 +48,31 @@ In TextMate preferences
     curl http://npmjs.org/install.sh | clean=yes sh
 
 
----
-# To be done:
-
-## Creating a Django site
 
 
-## ?. Installing Django modules
+## 2. Creating a Django site
+
+### 2.1. Install Django
+
+    pip install Django
+
+### 2.2. Create a fresh Django site
+
+    mkdir ~/django-heroku
+    cd ~/django-heroku
+    django-admin.py startproject mysite
+    cd mysite
+    python manage.py runserver
+
+
+# To do:
+
+### Add an app to the site
+
+    python manage.py startapp core
+
+
+## 3. Installing Django modules
 
 
 ### https://github.com/jezdez/django_compressor
