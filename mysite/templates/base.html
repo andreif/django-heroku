@@ -4,27 +4,35 @@
 <head>
     <title>{% block title %}{% endblock %}</title>
     {% compress css %}
-    <style>
-    body {font: bold 19px Georgia;}
-    </style>
+        <link type="text/css" rel="stylesheet" href="/static/css/awesome.css" charset="utf-8">
+        <link type="text/less" rel="stylesheet" href="/static/css/awesome.less" charset="utf-8">
+        <link type="text/x-sass" rel="stylesheet" href="/static/css/awesome.sass" charset="utf-8">
+        <link type="text/x-scss" rel="stylesheet" href="/static/css/awesome.scss" charset="utf-8">
+        <style>
+            body {font: bold 19px Georgia;}
+        </style>
     
-    <style type="text/less">
-    @color: #4D926F;
+        <style type="text/less">
+            @color: #4D926F;
 
-    #header {
-      color: @color;
-    }
-    </style>
+            #header {
+              color: @color;
+            }
+        </style>
     {% endcompress %}
-    {% compress js %}
-    <script type="text/javascript" charset="utf-8">
-      var a=1;
-    </script>
     
-    <script type="text/coffeescript" charset="utf-8">
-    # Functions:
-    square = (x) -> x * x
-    </script>
+    {% compress js %}
+        <script type="text/coffeescript" charset="utf-8" src="/static/js/awesome.coffee" />
+        <script type="text/javascript" charset="utf-8" src="/static/js/cool.js" />
+    
+        <script type="text/javascript" charset="utf-8">
+            var a=1;
+        </script>
+    
+        <script type="text/coffeescript" charset="utf-8">
+            # Functions:
+            square = (x) -> x * x
+        </script>
     {% endcompress %}
     
 </head>
