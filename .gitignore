@@ -1,1 +1,4 @@
+CACHE
 *.pyc
+*.sqlite3
+
