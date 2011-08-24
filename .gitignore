@@ -1,4 +1,5 @@
 CACHE
+.sass-cache
 *.pyc
 *.sqlite3
 
