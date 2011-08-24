@@ -15,11 +15,8 @@ See PREREQUISITES.md
     cd mysite
     python manage.py runserver
 
-### 2.2. Add a core app to the site
 
-    python manage.py startapp core
-
-### 2.3. Set up database and directories in the settings
+### 2.2. Set up database and directories in the settings
 
  - Keep the root dir in a variable
  - Set sqlite3 as db driver and provide the path to db file
@@ -31,3 +28,9 @@ Sync the database
     python manage.py syncdb
 
 
+### 2.3. Add a core app to the site
+
+    python manage.py startapp core
+
+Add the core app to the list of installed apps.
+Add a hello-world view for the root url.
