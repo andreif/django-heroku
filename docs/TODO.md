@@ -3,9 +3,11 @@
 
 
 
+pip -e git://github.com/pypa/virtualenv.git#egg=virtualenv
 pip install virtualenv
 virtualenv --no-site-packages .
-
+source bin/activate
+pip install -r requirements.txt
 
 
 
