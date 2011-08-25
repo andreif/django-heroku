@@ -147,3 +147,6 @@ LOGGING = {
         },
     }
 }
+
+import dmsl
+dmsl.set_template_dir(root + '/templates')
