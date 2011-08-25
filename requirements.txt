@@ -1,1 +1,3 @@
 -e git://github.com/django/django.git@1.3#egg=django
+-e git://github.com/jessemiller/HamlPy.git#egg=HamlPy
+-e git://github.com/chartjes/djaml.git#egg=djaml
