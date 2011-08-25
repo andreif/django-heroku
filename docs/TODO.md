@@ -2,6 +2,16 @@
 
 
 
+
+pip install virtualenv
+virtualenv --no-site-packages .
+
+
+
+
+
+
+
 ## 3. Installing Django modules
 
 

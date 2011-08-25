@@ -2,4 +2,6 @@ CACHE
 .sass-cache
 *.pyc
 *.sqlite3
-
+/bin
+/lib
+/include
