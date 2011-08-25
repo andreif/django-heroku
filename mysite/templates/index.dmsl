@@ -1,0 +1,4 @@
+extends('base.dmsl')
+
+#content
+    %h1 Homepage

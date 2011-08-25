@@ -1,0 +1,7 @@
+%html
+    %head
+        %title
+    %body
+        #header This is header
+        #content This is content
+        #footer This is footer
