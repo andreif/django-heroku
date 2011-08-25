@@ -72,4 +72,19 @@ Add settings
 http://django_compressor.readthedocs.org/en/latest/installation/
 http://django_compressor.readthedocs.org/en/latest/settings/#compress-precompilers
 
-    
+
+
+
+
+http://www.pip-installer.org/en/latest/requirement-format.html
+
+Pip currently supports cloning over git, git+http and git+ssh:
+
+-e git://git.myproject.org/MyProject.git#egg=MyProject
+-e git+http://git.myproject.org/MyProject/#egg=MyProject
+-e git+ssh://git@myproject.org/MyProject/#egg=MyProject
+Passing branch names, a commit hash or a tag name is also possible:
+
+-e git://git.myproject.org/MyProject.git@master#egg=MyProject
+-e git://git.myproject.org/MyProject.git@v1.0#egg=MyProject
+-e git://git.myproject.org/MyProject.git@da39a3ee5e6b4b0d3255bfef95601890afd80709#egg=MyProject
