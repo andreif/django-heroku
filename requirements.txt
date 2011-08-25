@@ -1,0 +1,3 @@
+distribute
+wsgiref
+Django==1.3
