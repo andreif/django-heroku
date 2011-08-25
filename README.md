@@ -3,7 +3,7 @@
 
 ## 1. Installing prerequisites (Mac OS X)
 
-See PREREQUISITES.md
+See docs/PREREQUISITES.md
 
 
 ## 2. Creating a Django site
